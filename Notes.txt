@@ -1,0 +1,11 @@
+Java Day 1: 06/29/2019 
+
+Problem 1: 
+
+Check if the input number is palindrome or not.    A number is palindrome -> 121 , 14788741. 
+
+Check if the input string is palindrome or not.   input  ava , hwskckswh 
+
+Problem 2: 
+
+Find the missing number in an array of size 10 with following numbers = [1,2,4,3,7,6,9,8,10]         
