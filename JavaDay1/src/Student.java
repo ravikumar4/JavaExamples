@@ -1,4 +1,3 @@
-import java.util.ArrayList;
 import java.util.List;
 
 public class Student {
@@ -6,7 +5,7 @@ public class Student {
 	int classNumber;
 	String name;
 	Product p;
-	List list;
+	List<String> list;
 	Sex sex;
 	
 	public void method() {

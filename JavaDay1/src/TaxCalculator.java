@@ -11,7 +11,7 @@ public class TaxCalculator {
 		this.p = p;
 	}
 	
-	
+	// Not a constructor.
 	public void TaxCalculator(Product p) {
 		this.p = p;
 	}
@@ -22,8 +22,8 @@ public class TaxCalculator {
 	
 	public static void main(String[] args) {
 		TaxCalculator cal = new TaxCalculator(new Product());
-		cal.calculateTax();
-		
+		// access public field of Product outside product class.
+		System.out.println(cal.p.tax1);		
+		cal.calculateTax();		
 	}
-
 }
